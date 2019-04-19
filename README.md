@@ -1,24 +1,12 @@
 # webgl-wireframes
 
-![banner](./screenshots/banner.jpg)
-
-This is the code for a November 2017 net magazine tutorial, _Stylized Wireframe Rendering in WebGL_. Check out the article (when it's released) for more details.
-
-## Stylized Wireframe Rendering in WebGL
-
-The code here uses barycentric coordinates to create stylized wireframes in ThreeJS and WebGL. Some features of the code and its shaders include:
-
-- Alpha to Coverage for crisp alpha cutouts and depth testing with Multisample Anti-Aliasing
-- Thick and anti-aliased single-pass wireframe rendering
-- Basic support for animated line dashes
-- Inner edge removal to render quads instead of triangles
-- A few other effects, such as noise, tapered lines, dual strokes and backface coloring
+This is a fork of Matt DesLauriers’ [webgl-wireframes](https://github.com/mattdesl/webgl-wireframes/) modified to create concentric striping.
 
 ## Demo
 
-Click [here](https://mattdesl.github.io/webgl-wireframes/app/) to see a live demo.
+Click [here](https://adamshaylor.github.io/webgl-wireframes/app/) to see a live demo.
 
-[<img src="./screenshots/screenshot.png" width="75%" />](https://mattdesl.github.io/webgl-wireframes/app/)
+[<img src="./screenshots/screenshot.png" style="max-width: 100%" />](https://adamshaylor.github.io/webgl-wireframes/app/)
 
 ## Usage
 
